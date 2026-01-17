@@ -1,21 +1,16 @@
 🌐 Personal Portfolio Website
 
+  ## 📸 Website Preview
+
+![Portfolio Preview](images/Portfolio%20Preview.png)
+
+
+
 This repository contains the source code for my personal portfolio website, built to showcase my background, skills, and projects in Data Science, Machine Learning, Artificial Intelligence, and Networking.
 
 🔗 Live Website:
 👉 https://ratul2060.github.io/portfolio
 
-👨‍💻 About Me
-
-I am Dhrubo Ratul Basak, a technology enthusiast with a strong interest in:
-
-Data Science
-
-Machine Learning
-
-Artificial Intelligence
-
-Computer Networking
 
 This website serves as a central place to present my profile, projects, resume, and contact information.
 
@@ -43,29 +38,37 @@ JavaScript
 
 GitHub Pages for deployment
 
-📂 Project Structure
-portfolio/
-│
-├── index.html
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── sass/
-│   └── webfonts/
-│
-├── images/
-│   ├── Project1.png
-│   └── ratul.jpg
-│
-└── README.md
+.
+📬 Contact Form (EmailJS Integration)
 
-🚀 Deployment
+This portfolio website includes a working contact form that allows visitors to send emails directly to me.
 
-This website is deployed using GitHub Pages.
+The contact functionality is implemented using EmailJS, a client-side email service.
 
+🔧 How it works
 
+Users fill in the contact form on the website
+
+On submit, the form data is sent via EmailJS
+
+The message is delivered directly to my email inbox
+
+No backend server is required
+
+## 🛣️ Roadmap
+
+- [x] Personal portfolio website
+- [x] First ML project showcase
+- [ ] Add more ML & Data Science projects
+- [ ] Add blog or learning notes section
 
 📄 Resume
 
 📥 View or Download CV:
 👉 https://ratul2060.github.io
+
+## 🙏 Acknowledgements
+
+- UI template by **HTML5 UP**
+- Icons by **Font Awesome**
+
