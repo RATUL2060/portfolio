@@ -2910,6 +2910,10 @@ a:hover {
    Education Section
 ========================= */
 
+/* =========================
+   Education Section
+========================= */
+
 #education {
     text-align: left;
 }
@@ -2917,13 +2921,13 @@ a:hover {
 .education-card {
     display: flex;
     align-items: flex-start;
-    gap: 12px;
+    gap: 8px;
 
     background: #1b2330;
-    border-radius: 14px;
+    border-radius: 12px;
 
-    padding: 16px;
-    margin-bottom: 12px;
+    padding: 8px 12px;
+    margin-bottom: 6px;
 
     text-align: left;
 
@@ -2931,45 +2935,88 @@ a:hover {
 }
 
 .education-card:hover {
-    transform: translateY(-5px) scale(1.01);
-    box-shadow: 0 12px 30px rgba(36, 200, 255, 0.2);
+    transform: translateY(-6px);
+    background: #22304a;
+    box-shadow: 0 10px 25px rgba(0, 180, 216, 0.25);
 }
 
 .edu-icon {
-    width: 45px;
-    height: 45px;
+    width: 32px;
+    height: 32px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     background: rgba(36, 200, 255, 0.12);
-    border-radius: 10px;
+    border-radius: 8px;
 
     color: #24c8ff;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 
     flex-shrink: 0;
 }
 
+.edu-content {
+    flex: 1;
+    line-height: 1.15;
+}
+
 .edu-content h3 {
-    font-size: 1.1rem;
-    margin-bottom: 2px;
+    font-size: 0.9rem;
+    margin-bottom: 1px;
+    font-weight: 700;
 }
 
 .edu-content h4 {
-    font-size: 0.95rem;
-    margin-bottom: 4px;
+    font-size: 0.8rem;
+    margin-bottom: 2px;
     color: #24c8ff;
+    font-weight: 600;
 }
 
 .edu-meta {
-    font-size: 0.85rem;
-    margin-bottom: 0;
+    font-size: 0.72rem;
     color: #a0a8b5;
+    margin-bottom: 0;
 }
 
+@media screen and (max-width: 736px) {
+    .education-card {
+        flex-direction: row;
+    }
 
+    .edu-content h3 {
+        font-size: 0.85rem;
+    }
+
+    .edu-content h4 {
+        font-size: 0.75rem;
+    }
+
+    .edu-meta {
+        font-size: 0.68rem;
+    }
+}
+
+/* Make Education section more compact */
+
+#education {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+#education .container {
+    max-width: 1000px;
+}
+
+#education header {
+    margin-bottom: 1.2em;
+}
+
+#education h2 {
+    margin-bottom: 0.3em;
+}
 
 
 
