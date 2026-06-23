@@ -2915,50 +2915,35 @@ a:hover {
 }
 
 .education-card {
-    display: flex;
-    gap: 25px;
-    align-items: flex-start;
-
-    background: #1b2330;
-    border: 1px solid rgba(255,255,255,0.08);
-
-    border-radius: 18px;
-
-    padding: 30px;
-    margin-bottom: 25px;
-
-    transition: all 0.3s ease;
-}
-
-.education-card {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: flex-start !important;
-
-    padding: 25px;
-    margin-bottom: 20px;
-
-    border-radius: 15px;
-    background: #1b2330;
-
-    text-align: left !important;
+    padding: 18px;      /* was 25-30px */
+    gap: 15px;          /* was 20-25px */
+    margin-bottom: 15px;
 }
 
 .edu-icon {
-    width: 60px;
-    height: 60px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-right: 20px;
-    flex-shrink: 0;
+    width: 50px;        /* was 60-70px */
+    height: 50px;
+    font-size: 1.3rem;
 }
 
-.edu-content {
-    flex: 1;
-    text-align: left !important;
+.edu-content h3 {
+    font-size: 1.15rem;
+    margin-bottom: 4px;
+}
+
+.edu-content h4 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.edu-meta {
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+}
+
+.edu-content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
 
 
