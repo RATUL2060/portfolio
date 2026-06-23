@@ -2696,49 +2696,76 @@ input, select, textarea {
 	text-shadow: 0 0 8px rgba(244, 162, 97, 0.7);
 
 }
+<section id="projects" class="two">
+    <div class="container">
 
-#projects .item .image img 
-{
-	max-height: 350px;
-	max-width: 320px;
-	margin-left: auto;
-	margin-right: auto;
-	object-fit: cover;
-}
-#projects .item header h4
-{
-	font-size: 1em;
-	margin-bottom: 0.5em;
-}
+        <header>
+            <h2>Projects</h2>
+        </header>
 
-/* Push project description & tech section down */
-#projects .item p {
-	margin-top: 1.1em;
-}
+        <p class="semi-bold">
+            Below is a selection of projects that reflect my interest in Networking,
+            Artificial Intelligence, and Data Science.
+        </p>
 
-/* Project image hover effect */
-#projects .item .image {
-	overflow: hidden;
-	border-radius: 0.1em;
-}
+        <div class="project-grid">
 
-#projects .item .image img {
-	transition: transform 0.4s ease, filter 0.4s ease;
-}
+            <!-- Project 1 -->
+            <div class="project-card">
 
-#projects .item:hover .image img {
-	transform: scale(1.08);
-	filter: brightness(1.1);
-}
+                <img src="images/Project1.png" alt="Heart Disease Prediction">
 
-#projects .item {
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+                <div class="project-content">
+                    <h3>Heart Disease Prediction System</h3>
 
-#projects .item:hover {
-	transform: translateY(-6px);
-	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-}
+                    <p>
+                        Machine learning model that predicts the likelihood of heart disease
+                        using patient health indicators and medical data.
+                    </p>
+
+                    <div class="tech-stack">
+                        Python • Pandas • Scikit-Learn • ML
+                    </div>
+
+                    <a href="https://github.com/RATUL2060/Heart-Disease-Prediction-System-with-Machine-Learning"
+                       target="_blank"
+                       class="project-btn">
+                       View Project
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+
+                <img src="images/jellyfin-ui.png" alt="Jellyfin">
+
+                <div class="project-content">
+                    <h3>Secure Jellyfin Media Server</h3>
+
+                    <p>
+                        Self-hosted media server with secure remote access using reverse proxy,
+                        VPN tunneling, Cloudflare, Docker, and MikroTik networking.
+                    </p>
+
+                    <div class="tech-stack">
+                        Docker • WireGuard • MikroTik • Cloudflare
+                    </div>
+
+                    <a href="https://github.com/RATUL2060/Networked-Jellyfin-Lab"
+                       target="_blank"
+                       class="project-btn">
+                       View Project
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
 /* Sidebar navigation hover */
 #nav ul li a {
 	transition: background-color 0.3s ease, color 0.3s ease;
