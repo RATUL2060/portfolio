@@ -2696,76 +2696,7 @@ input, select, textarea {
 	text-shadow: 0 0 8px rgba(244, 162, 97, 0.7);
 
 }
-<section id="projects" class="two">
-    <div class="container">
 
-        <header>
-            <h2>Projects</h2>
-        </header>
-
-        <p class="semi-bold">
-            Below is a selection of projects that reflect my interest in Networking,
-            Artificial Intelligence, and Data Science.
-        </p>
-
-        <div class="project-grid">
-
-            <!-- Project 1 -->
-            <div class="project-card">
-
-                <img src="images/Project1.png" alt="Heart Disease Prediction">
-
-                <div class="project-content">
-                    <h3>Heart Disease Prediction System</h3>
-
-                    <p>
-                        Machine learning model that predicts the likelihood of heart disease
-                        using patient health indicators and medical data.
-                    </p>
-
-                    <div class="tech-stack">
-                        Python • Pandas • Scikit-Learn • ML
-                    </div>
-
-                    <a href="https://github.com/RATUL2060/Heart-Disease-Prediction-System-with-Machine-Learning"
-                       target="_blank"
-                       class="project-btn">
-                       View Project
-                    </a>
-                </div>
-
-            </div>
-
-            <!-- Project 2 -->
-            <div class="project-card">
-
-                <img src="images/jellyfin-ui.png" alt="Jellyfin">
-
-                <div class="project-content">
-                    <h3>Secure Jellyfin Media Server</h3>
-
-                    <p>
-                        Self-hosted media server with secure remote access using reverse proxy,
-                        VPN tunneling, Cloudflare, Docker, and MikroTik networking.
-                    </p>
-
-                    <div class="tech-stack">
-                        Docker • WireGuard • MikroTik • Cloudflare
-                    </div>
-
-                    <a href="https://github.com/RATUL2060/Networked-Jellyfin-Lab"
-                       target="_blank"
-                       class="project-btn">
-                       View Project
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
 /* Sidebar navigation hover */
 #nav ul li a {
 	transition: background-color 0.3s ease, color 0.3s ease;
@@ -3185,7 +3116,78 @@ a:hover {
 }
 
 
+/* ==========================
+   PROJECTS
+========================== */
 
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: #1b2330;
+    border-radius: 14px;
+    overflow: hidden;
+
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(36,200,255,.15);
+}
+
+.project-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 18px;
+    text-align: left;
+}
+
+.project-content h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.project-content p {
+    font-size: 0.9rem;
+    color: #c5ced8;
+    margin-bottom: 12px;
+}
+
+.tech-stack {
+    color: #24c8ff;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #24c8ff;
+    border-radius: 8px;
+    color: #24c8ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.project-btn:hover {
+    background: #24c8ff;
+    color: #081F33;
+}
+
+@media screen and (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 
