@@ -3187,7 +3187,22 @@ a:hover {
     }
 }
 
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 18px 0;
+}
 
+.tech-stack span {
+    padding: 6px 12px;
+    background: rgba(36,200,255,.12);
+    border: 1px solid rgba(36,200,255,.25);
+    color: #24c8ff;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
 
 
 
