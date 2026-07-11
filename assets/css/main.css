@@ -2864,9 +2864,7 @@ a:hover {
 }
 
 
-/* =========================
-   Education Section
-========================= */
+
 
 /* =========================
    Education Section
@@ -2879,12 +2877,12 @@ a:hover {
 .education-card {
     display: flex;
     align-items: flex-start;
-    gap: 8px;
+    gap: 12px;
 
     background: #1b2330;
     border-radius: 12px;
 
-    padding: 8px 12px;
+    padding: 12px 16px;
     margin-bottom: 6px;
 
     text-align: left;
@@ -2899,8 +2897,8 @@ a:hover {
 }
 
 .edu-icon {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
 
     display: flex;
     align-items: center;
@@ -2910,7 +2908,7 @@ a:hover {
     border-radius: 8px;
 
     color: #24c8ff;
-    font-size: 0.8rem;
+    font-size: 1rem;
 
     flex-shrink: 0;
 }
